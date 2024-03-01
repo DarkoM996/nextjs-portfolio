@@ -1,15 +1,14 @@
-import { Bodoni_Moda} from "next/font/google";
+import { Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "./components/TransitionProvider";
-import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar";
 
 const bodoni = Bodoni_Moda({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font--bodoni--moda',
-  weight: ['400','500', '600', '700', '800', '900']
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font--bodoni--moda",
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
-
 
 export const metadata = {
   title: "Darko | Creative Developer And Designer",
@@ -17,11 +16,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  
   return (
     <html lang="en">
       <body className={bodoni.className}>
-        <TransitionProvider  exitBeforeEnter>{children}</TransitionProvider>
+        <TransitionProvider exitBeforeEnter>{children}</TransitionProvider>
       </body>
     </html>
   );
