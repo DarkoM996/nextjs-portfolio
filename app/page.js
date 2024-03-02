@@ -36,7 +36,7 @@ export default function Home() {
             Freelance Designer and Developer
           </h1>
           {/* Buttons */}
-          <div className="flex gap-4 py-4 flex-col">
+          <div className="flex gap-4 py-4 ">
             <button className="px-6 py-4 max-w-[420px]:w-full md:px-8 md:py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
               See Projects
             </button>
