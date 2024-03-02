@@ -37,10 +37,10 @@ export default function Home() {
           </h1>
           {/* Buttons */}
           <div className="flex gap-4 p-4">
-            <button className="px-8 py-4 rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+            <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
               Projects
             </button>
-            <button className="px-8 py-4 rounded-full ring-1 ring-[#a59f9f] bg-black ">
+            <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-[#a59f9f] bg-black ">
               Download CV
             </button>
           </div>
