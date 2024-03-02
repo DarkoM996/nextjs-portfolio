@@ -20,7 +20,7 @@ export default function Home() {
           <Image
             priority
             src={heroPic}
-            alt="Hero Section Picture"
+            alt="Contact Section Picture"
             fill
             className=" object-cover"
           />
@@ -28,21 +28,21 @@ export default function Home() {
         {/* Text Container */}
         <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap">
           {/* small heading */}
-          <p className="text-transform: uppercase pb-4 lg:text-left">
+          <p className="text-transform: uppercase lg:text-left">
             Darko Mihajlovski
           </p>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold items-center break-normal lg:pb-4 text-center">
-            Freelance Designer and Developer
+          <h1 className="text-4xl md:text-6xl font-bold items-center break-normal lg:pb-4 text-center">
+            Freelane Developer and Designer
           </h1>
           <div className="flex gap-4 py-4">
-            <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+            <button className="px-8 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
               See Projects
             </button>
             <button className="px-8 py-4 rounded-3xl ring-1 ring-[#a59f9f] bg-black ">
               Download CV
             </button>
           </div>
-          <div className="flex md:flex gap-4 lg:pt2">
+          <div className="flex gap-4">
             <div className="p-4 text-2xl">
               <p>
                 <FaGithub />
