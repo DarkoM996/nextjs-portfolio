@@ -28,13 +28,15 @@ export default function Home() {
         {/* Text Container */}
         <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap">
           {/* small heading */}
-          <p className="text-transform: uppercase lg:text-left">Contact</p>
+          <p className="text-transform: uppercase lg:text-left">
+            Darko Mihajlovski
+          </p>
           {/* H1 */}
           <h1 className="text-4xl md:text-6xl font-bold items-center break-normal lg:pb-4 text-center">
             Freelance Designer and Developer
           </h1>
           {/* Buttons */}
-          <div className="flex gap-4 py-4">
+          <div className="flex flex-col gap-4 py-4">
             <button className="px-6 py-4 md:px-8 md:py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
               See Projects
             </button>
