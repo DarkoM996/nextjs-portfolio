@@ -36,7 +36,7 @@ export default function Home() {
             Freelance Designer and Developer
           </h1>
           {/* Buttons */}
-          <div className="flex flex-col gap-4 py-4">
+          <div className="flex gap-4 py-4">
             <button className="px-6 py-4 md:px-8 md:py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
               See Projects
             </button>
@@ -45,7 +45,7 @@ export default function Home() {
             </button>
           </div>
           {/* Social Media Links */}
-          <div className="flex flex-row gap-4">
+          <div className="flex justify-start items-center md:flex md:flex-row gap-4">
             <div className="p-4 text-2xl">
               <p>
                 <FaGithub />
