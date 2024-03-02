@@ -39,7 +39,7 @@ export default function Home() {
               See Projects
             </button>
             <button className="px-8 py-4 rounded-3xl ring-1 ring-[#a59f9f] bg-black ">
-              Download CV
+              Download
             </button>
           </div>
           <div className="flex gap-4">
