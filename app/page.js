@@ -45,7 +45,7 @@ export default function Home() {
             </button>
           </div>
           {/* Social Media Links */}
-          <div className="flex justify-start items-center md:flex md:flex-row gap-4">
+          <div className="flex flex-wrap justify-start items-center md:flex md:flex-row gap-4">
             <div className="p-4 text-2xl">
               <p>
                 <FaGithub />
