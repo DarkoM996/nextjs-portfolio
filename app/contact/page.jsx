@@ -40,7 +40,7 @@ const page = () => {
               Phone
             </button>
           </div>
-          {/* Social Media Links */}
+          {/* Social Media */}
           <div className="flex gap-4">
             <div className="p-4 text-2xl">
               <p>
