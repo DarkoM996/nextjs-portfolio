@@ -28,17 +28,19 @@ export default function Home() {
         {/* Text Container */}
         <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap">
           {/* small heading */}
-          <p className="text-transform: uppercase lg:text-left">Contact</p>
+          <p className="text-transform: uppercase lg:text-left">
+            Darko Mihajlovski
+          </p>
           {/* H1 */}
-          <h1 className="text-4xl md:text-6xl font-bold items-center break-normal lg:pb-4 text-center">
-            Need a project? Get in touch now
+          <h1 className="text-4xl md:text-6xl font-bold items-center break-normal pb-4 text-center">
+            Freelance Designer and Developer
           </h1>
           {/* Buttons */}
-          <div className="flex  gap-6 py-4">
-            <button className=" px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+          <div className="flex gap-4 p-4">
+            <button className="px-8 py-4 rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
               Projects
             </button>
-            <button className="px-8 py-4 rounded-3xl ring-1 ring-[#a59f9f] bg-black ">
+            <button className="px-8 py-4 rounded-full ring-1 ring-[#a59f9f] bg-black ">
               Download CV
             </button>
           </div>
