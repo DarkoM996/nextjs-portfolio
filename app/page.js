@@ -36,8 +36,8 @@ export default function Home() {
             Freelance Designer and Developer
           </h1>
           {/* Buttons */}
-          <div className="flex gap-4 py-4 flex-wrap">
-            <button className="px-6 py-4 md:px-8 md:py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+          <div className="flex gap-4 py-4 flex-col">
+            <button className="px-6 py-4 max-w-[420px]:w-full md:px-8 md:py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
               See Projects
             </button>
             <button className="px-8 py-4 rounded-3xl ring-1 ring-[#a59f9f] bg-black ">
@@ -45,7 +45,7 @@ export default function Home() {
             </button>
           </div>
           {/* Social Media Links */}
-          <div className="flex flex-wrap justify-start items-center md:flex md:flex-row gap-4">
+          <div className="flex justify-start items-center md:flex md:flex-row gap-4">
             <div className="p-4 text-2xl">
               <p>
                 <FaGithub />
