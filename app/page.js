@@ -45,7 +45,7 @@ export default function Home() {
             </button>
           </div>
           {/* Social Media */}
-          <div className="flex gap-4">
+          <div className="flex  gap-4">
             <div className="p-4 text-2xl">
               <p>
                 <FaGithub />
