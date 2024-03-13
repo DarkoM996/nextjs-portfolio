@@ -120,9 +120,9 @@ const page = () => {
             alt="/"
           />
         </div>
-        <div className="max-w-full h-screen mx-auto relative gap-4">
-          <h2 className="text-5xl font-bold flex flex-col items-center justify-center h-[95%]">
-            <Link href="/projects/first">Next Case</Link>
+        <div className="max-w-full h-[85%] mx-auto relative gap-4">
+          <h2 className="text-5xl font-bold flex flex-col items-center justify-center h-[90%]">
+            Next Case
           </h2>
           <Footer />
         </div>
