@@ -12,7 +12,6 @@ import FAQ2 from "../../../app/components/FAQ";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
 
-
 const page = () => {
   return (
     <div className="max-w-[1920px] mx-auto relative h-screen bg-[#494848] ">

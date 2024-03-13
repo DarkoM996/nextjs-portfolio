@@ -42,7 +42,7 @@ const page = () => {
             Furnico is a web app for an ecommerce fictional furniture brand
           </h2>
           <div className="w-full h-2/3  text-white">
-            <FAQ2 />
+            <FAQ />
           </div>
         </div>
         {/* Picture */}
