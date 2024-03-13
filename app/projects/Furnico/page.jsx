@@ -30,7 +30,7 @@ const page = () => {
         </p>
         <h1 className="font-bold text-6xl items-center text-center pb-4">
           Furnico Furniture <br />
-          Ecommerce Web App
+          Ecommerce Web Design
         </h1>
         <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
           Scroll Down
