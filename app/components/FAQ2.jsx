@@ -6,7 +6,7 @@ const FAQ2 = () => {
     <div className="bg-[#0e0d0d] rounded-2xl">
       <Accordion
         title="About the project"
-        answer="Furnico Furniture is a mockup project about an ecommerce web app."
+        answer="SneakerHead is an ecommerce web app for a sneaker shop. The brand's goals are to bring a collection of the world's best sneakers from the world's top sneaker companies available to their customers."
       />
       <Accordion title="Type of project" answer="This is a mockup project." />
       <Accordion title="Year" answer="2024." />

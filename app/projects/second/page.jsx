@@ -39,8 +39,7 @@ const page = () => {
       <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
           <h2 className="text-5xl w-full font-bold">
-            Project title that explains in short what was the project, type of
-            project etc.
+            SneakerHead is an ecommerce web app for a concept brand
           </h2>
           <div className="w-full h-2/3  text-white">
             <FAQ2 />
