@@ -20,12 +20,12 @@ const page = () => {
         <ProjectItem
           title="Furniture Web App"
           backgroundImg={gridPic}
-          projectUrl="/furnico"
+          projectUrl="/projects/furnico"
         />
         <ProjectItem
           title="Sneakers Web App"
           backgroundImg={secondGridPic}
-          projectUrl="/coffeebar"
+          projectUrl="/projects/sneakerhead"
         />
         <ProjectItem
           title="Travel Website"
