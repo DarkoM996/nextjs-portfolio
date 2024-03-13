@@ -6,11 +6,11 @@ const FAQ = () => {
     <div className=" bg-[#0e0d0d] rounded-2xl">
       <Accordion
         title="About the project"
-        answer="CoffeeBar is a mockup project about an landing page for a Coffee Bar."
+        answer="Furnico is an ecommerce website design. The website relies on clean and minimalistic design with pastel color choice to create a warm and cozy feeling when the user is on the website."
       />
       <Accordion
-        title="Type of project"
-        answer="Furnico is a mockup project about an landing page for a Coffee Bar."
+        title="Technologies used"
+        answer="Figma, Photoshop, React, Tailwind and Framer Motion."
       />
       <Accordion title="Year" answer="2024" />
       <Accordion

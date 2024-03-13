@@ -2,12 +2,13 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import gridPic from "../../images/30.jpg";
-import gridPic2 from "../../images/9.jpg";
-import gridPic6 from "../../images/13.jpg";
-import gridPic7 from "../../images/22.jpg";
-import gridPic8 from "../../images/20.jpg";
-import gridPic9 from "../../images/14.jpg";
-import gridPic4 from "../../images/21.jpg";
+import gridPic6 from "../../images/23.jpg";
+import gridPic7 from "../../images/24.jpg";
+import gridPic8 from "../../images/25.jpg";
+import gridPic9 from "../../images/31.jpg";
+import gridPic10 from "../../images/29.jpg";
+import gridPic11 from "../../images/26.jpg";
+import gridPic4 from "../../images/27.jpg";
 import FAQ from "../../../app/components/FAQ";
 import FAQ2 from "@/app/components/FAQ2";
 import Footer from "@/app/components/Footer";
@@ -39,7 +40,7 @@ const page = () => {
       <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
           <h2 className="text-5xl w-full font-bold">
-            Furnico is a web app for an ecommerce fictional furniture brand
+            Furnico is a website for an ecommerce fictional furniture brand
           </h2>
           <div className="w-full h-2/3  text-white">
             <FAQ />
@@ -85,7 +86,7 @@ const page = () => {
           <div className="relative sm:col-span-2 ">
             <Image
               priority={true}
-              src={gridPic7}
+              src={gridPic9}
               fill
               className="object-cover max-w-full"
               alt="/"
@@ -95,7 +96,7 @@ const page = () => {
           <div className="relative">
             <Image
               priority={true}
-              src={gridPic8}
+              src={gridPic10}
               fill
               className="object-cover"
               alt="/"
@@ -104,7 +105,7 @@ const page = () => {
           <div className="relative">
             <Image
               priority={true}
-              src={gridPic9}
+              src={gridPic11}
               fill
               className="object-cover"
               alt="/"
@@ -122,7 +123,12 @@ const page = () => {
         </div>
         <div className="max-w-full h-[85%] mx-auto relative gap-4">
           <h2 className="text-5xl font-bold flex flex-col items-center justify-center h-[90%]">
-            Next Case
+            <Link
+              href="/projects/sneakerhead"
+              className="hover:underline hover:text-red-500"
+            >
+              Next Case
+            </Link>
           </h2>
           <Footer />
         </div>

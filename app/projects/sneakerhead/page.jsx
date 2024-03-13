@@ -4,11 +4,14 @@ import Image from "next/image";
 import gridPic from "../../images/19.jpg";
 import gridPic2 from "../../images/9.jpg";
 import gridPic6 from "../../images/13.jpg";
-import gridPic7 from "../../images/22.jpg";
+import gridPic7 from "../../images/21.jpg";
 import gridPic8 from "../../images/20.jpg";
 import gridPic9 from "../../images/14.jpg";
-import gridPic4 from "../../images/17.jpg";
-import FAQ2 from "../../../app/components/FAQ";
+import gridPic10 from "../../images/17.jpg";
+import gridPic11 from "../../images/19.jpg";
+
+import gridPic4 from "../../images/16.jpg";
+import FAQ2 from "@/app/components/FAQ2";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
 
@@ -60,7 +63,7 @@ const page = () => {
             <div className="relative">
               <Image
                 priority={true}
-                src={gridPic7}
+                src={gridPic10}
                 fill
                 className="object-cover"
                 alt="/"
@@ -70,7 +73,7 @@ const page = () => {
             <div className="relative">
               <Image
                 priority={true}
-                src={gridPic8}
+                src={gridPic11}
                 fill
                 className="object-cover"
                 alt="/"
