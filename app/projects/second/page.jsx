@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import gridPic from "../../images/15.jpg";
+import gridPic from "../../images/19.jpg";
 import gridPic2 from "../../images/9.jpg";
-import gridPic6 from "../../images/16.jpg";
-import gridPic7 from "../../images/17.jpg";
+import gridPic6 from "../../images/13.jpg";
+import gridPic7 from "../../images/22.jpg";
 import gridPic8 from "../../images/20.jpg";
-import gridPic9 from "../../images/7.jpg";
-import gridPic4 from "../../images/7.jpg";
+import gridPic9 from "../../images/14.jpg";
+import gridPic4 from "../../images/21.jpg";
 import FAQ from "../../../app/components/FAQ";
 import FAQ2 from "@/app/components/FAQ2";
 import Footer from "@/app/components/Footer";
@@ -21,6 +21,7 @@ const page = () => {
         src={gridPic}
         fill
         className="object-cover  bg-center"
+        alt="/"
       />
       <div className="relative bg-black/80 max-w-[1920px] h-full flex flex-col justify-center items-center gap-4">
         <p className="text-base leading-relaxed text-transform: uppercase text-center">
@@ -110,6 +111,15 @@ const page = () => {
               alt="/"
             />
           </div>
+        </div>
+        <div className="max-w-full h-screen mx-auto relative gap-4">
+          <Image
+            priority={true}
+            src={gridPic4}
+            fill
+            className="object-cover max-w-full"
+            alt="/"
+          />
         </div>
         <div className="max-w-full h-screen mx-auto relative gap-4">
           <h2 className="text-5xl font-bold flex flex-col items-center justify-center h-[95%]">
