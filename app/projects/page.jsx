@@ -28,7 +28,7 @@ const page = () => {
           projectUrl="/projects/sneakerhead"
         />
         <ProjectItem
-          title="Travel Website"
+          title="Coffee Bar Website"
           backgroundImg={thirdGridPic}
           projectUrl="/coffeebar"
         />

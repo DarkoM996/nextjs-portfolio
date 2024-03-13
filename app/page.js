@@ -1,8 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import heroPic from "/app/images/8.jpg";
+import heroPic from "/app/images/27.jpg";
 import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,11 +23,11 @@ export default function Home() {
             src={heroPic}
             alt="Hero Section Picture"
             fill
-            className=" object-cover"
+            className=" object-cover max-w-full"
           />
         </div>
         {/* Text Container */}
-        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap">
+        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap gap-4">
           {/* small heading */}
           <p className="text-transform: uppercase lg:text-left">
             Darko Mihajlovski
@@ -37,10 +38,12 @@ export default function Home() {
           </h1>
           {/* Buttons */}
           <div className="flex justify-center items-center gap-4">
-            <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
-              Projects
-            </button>
-            <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-[#a59f9f] bg-black ">
+            <Link href="/projects">
+              <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+                Projects
+              </button>
+            </Link>
+            <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-[#a59f9f] bg-black hover:bg-[#0e0d0d] ">
               Download CV
             </button>
           </div>
@@ -52,19 +55,25 @@ export default function Home() {
               </p>
             </div>
             <div className="p-4 text-2xl">
-              <p>
-                <FaDribbble />
-              </p>
+              <a href="https://dribbble.com/DarkoM_0-10">
+                <p>
+                  <FaDribbble />
+                </p>
+              </a>
             </div>
             <div className="p-4 text-2xl">
-              <p>
-                <FaBehance />
-              </p>
+              <a href="https://www.behance.net/darkomihajlo">
+                <p>
+                  <FaBehance />
+                </p>
+              </a>
             </div>
             <div className="p-4 text-2xl">
-              <p>
-                <FaLinkedinIn />
-              </p>
+              <a href="https://www.linkedin.com/in/darko-mihajlovski-1bb4701b7">
+                <p>
+                  <FaLinkedinIn />
+                </p>
+              </a>
             </div>
           </div>
         </div>
