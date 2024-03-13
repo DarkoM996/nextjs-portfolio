@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import gridPic from "../../images/19.jpg";
+import gridPic from "../../images/30.jpg";
 import gridPic2 from "../../images/9.jpg";
 import gridPic6 from "../../images/13.jpg";
 import gridPic7 from "../../images/22.jpg";
@@ -23,12 +23,12 @@ const page = () => {
         className="object-cover  bg-center"
         alt="/"
       />
-      <div className="relative bg-black/80 max-w-[1920px] h-full flex flex-col justify-center items-center gap-4">
+      <div className="relative bg-black/50 max-w-[1920px] h-full flex flex-col justify-center items-center gap-4">
         <p className="text-base leading-relaxed text-transform: uppercase text-center">
           Project Info
         </p>
         <h1 className="font-bold text-6xl items-center text-center pb-4">
-          Sneaker Head <br />
+          Furnico Furniture <br />
           Ecommerce Web App
         </h1>
         <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
@@ -39,7 +39,7 @@ const page = () => {
       <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
           <h2 className="text-5xl w-full font-bold">
-            SneakerHead is an ecommerce web app for a concept brand
+            Furnico is a web app for an ecommerce fictional furniture brand
           </h2>
           <div className="w-full h-2/3  text-white">
             <FAQ2 />

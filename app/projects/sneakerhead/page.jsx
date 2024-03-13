@@ -7,11 +7,11 @@ import gridPic6 from "../../images/13.jpg";
 import gridPic7 from "../../images/22.jpg";
 import gridPic8 from "../../images/20.jpg";
 import gridPic9 from "../../images/14.jpg";
-import gridPic4 from "../../images/21.jpg";
-import FAQ from "../../../app/components/FAQ";
-import FAQ2 from "@/app/components/FAQ2";
+import gridPic4 from "../../images/17.jpg";
+import FAQ2 from "../../../app/components/FAQ";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
+
 
 const page = () => {
   return (
