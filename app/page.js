@@ -50,9 +50,11 @@ export default function Home() {
           {/* Social Media */}
           <div className="flex  gap-4">
             <div className="p-4 text-2xl">
-              <p>
-                <FaGithub />
-              </p>
+              <a href="https://github.com/DarkoM996/nextjs-portfolio">
+                <p>
+                  <FaGithub />
+                </p>
+              </a>
             </div>
             <div className="p-4 text-2xl">
               <a href="https://dribbble.com/DarkoM_0-10">
