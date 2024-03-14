@@ -27,7 +27,7 @@ export default function Home() {
           />
         </div>
         {/* Text Container */}
-        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap gap-2">
+        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap">
           {/* small heading */}
           <p className="text-transform: uppercase lg:text-left">
             Darko Mihajlovski
