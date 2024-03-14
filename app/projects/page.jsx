@@ -5,8 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import gridPic from "../images/27.jpg";
 import secondGridPic from "../images/19.jpg";
-import thirdGridPic from "../images/12.jpg";
-import fourthGridPic from "../images/2.jpg";
+import thirdGridPic from "../images/2.jpg";
+import fourthGridPic from "../images/12.jpg";
 import fifthGridPic from "../images/4.jpg";
 import sixthGridPic from "../images/3.png";
 import ProjectItem from "../components/ProjectItem";
@@ -28,12 +28,12 @@ const page = () => {
           projectUrl="/projects/sneakerhead"
         />
         <ProjectItem
-          title="Coffee Bar"
+          title="Coffee Bar Website"
           backgroundImg={thirdGridPic}
-          projectUrl="/coffeebar"
+          projectUrl="/projects/coffeebar"
         />
         <ProjectItem
-          title="Coffee Bar Website"
+          title="Travel Website"
           backgroundImg={fourthGridPic}
           projectUrl="/coffeebar"
         />
