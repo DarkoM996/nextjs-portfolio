@@ -131,7 +131,7 @@ const Navbar = () => {
                   className=""
                   key={link.title}
                 >
-                  <Link href={project.url} key={link.title}>
+                  <Link href={link.url} key={link.title}>
                     {link.title}
                   </Link>
                 </motion.div>
