@@ -33,7 +33,13 @@ const page = () => {
           </h1>
           {/* Buttons */}
           <div className="flex gap-4 py-4">
-            <button className="px-8 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+            {/* Connects to email.. Will stand until I find a better solution */}
+            <button
+              onClick={() =>
+                (window.location = "mailto:darko.mihajlovski@gmail.com")
+              }
+              className="px-8 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]"
+            >
               Email
             </button>
             <button className="px-8 py-4 rounded-3xl ring-1 ring-[#a59f9f] bg-black ">
