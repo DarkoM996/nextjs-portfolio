@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useSelectedLayoutSegment } from "next/navigation";
 
 const NavLink = ({ link }) => {
   const pathName = usePathname();
@@ -9,7 +10,7 @@ const NavLink = ({ link }) => {
   console.log(pathName);
   return (
     <Link
-      className={` ${
+      className={`${
         pathName === link.url ? " text-red-500 " : "text-[#6d6b6bcc]"
       }`}
       href={link.url}
