@@ -17,7 +17,7 @@ import FAQ3 from "@/app/components/FAQ3";
 
 const page = () => {
   return (
-    <div className="max-w-[1920px] mx-auto relative h-screen bg-[#494848] ">
+    <div className="max-w-[1920px] mx-auto relative h-screen">
       <Image
         priority={true}
         src={gridPic}
