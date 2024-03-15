@@ -35,7 +35,7 @@ const page = () => {
         <ProjectItem
           title="Travel Website"
           backgroundImg={fourthGridPic}
-          projectUrl="/coffeebar"
+          projectUrl="/projects/travelwebsite"
         />
         <ProjectItem
           title="Food Web App"
