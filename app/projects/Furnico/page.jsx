@@ -32,12 +32,20 @@ const page = () => {
           Furnico Furniture <br />
           Ecommerce Web Design
         </h1>
-        <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+        {/* This is how to have a scroll to section in React + NextJs */}
+        <button
+          onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
+          className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]"
+        >
           Scroll Down
         </button>
       </div>
       {/* Project Info + Accordion */}
-      <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24">
+      {/* style code is so I can have a scroll to work in React */}
+      <div
+        style={{ height: 1000 }}
+        className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24"
+      >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
           <h2 className="text-5xl w-full font-bold">
             Furnico is a website for an ecommerce fictional furniture brand
