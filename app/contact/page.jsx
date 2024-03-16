@@ -36,7 +36,7 @@ const page = () => {
             {/* Connects to email.. Will stand until I find a better solution */}
             <button
               onClick={() =>
-                (window.location = "mailto:darko.mihajlovski@gmail.com")
+                (window.location = "mailto:darko.mihajlovski96@gmail.com")
               }
               className="px-8 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]"
             >
