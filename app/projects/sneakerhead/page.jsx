@@ -33,13 +33,19 @@ const page = () => {
           Sneaker Head <br />
           Ecommerce Web App
         </h1>
-        <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+        <button
+          onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
+          className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]"
+        >
           Scroll Down
         </button>
       </div>
       {/* Project Info + Accordion */}
       <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
+        <div
+          style={{ height: 1000 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24"
+        >
           <h2 className="text-5xl w-full font-bold">
             SneakerHead is an ecommerce web app for a concept brand
           </h2>
