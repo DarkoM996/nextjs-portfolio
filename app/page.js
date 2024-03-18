@@ -15,7 +15,7 @@ export default function Home() {
       transition={{ ease: "easeInOut", duration: 0.75 }}
       className="h-[calc(100vh-6rem)]"
     >
-      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto xl:space-x-20 space-y-4">
+      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto xl:space-x-20 space-y-8">
         {/* Image Container */}
         <div className="h-full lg:h-full lg:w-full relative space-y-24">
           <Image
@@ -39,11 +39,11 @@ export default function Home() {
           {/* Buttons */}
           <div className="flex justify-center items-center gap-4">
             <Link href="/projects">
-              <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+              <button className="px-6 py-3 md:px-8 md:py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
                 Projects
               </button>
             </Link>
-            <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-[#a59f9f] bg-black hover:bg-[#0e0d0d] ">
+            <button className="px-6 py-3 md:px-8 md:py-4 rounded-3xl md:rounded-full ring-1 ring-[#a59f9f] bg-black hover:bg-[#0e0d0d] ">
               Download CV
             </button>
           </div>
