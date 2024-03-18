@@ -13,7 +13,7 @@ export default function Home() {
       initial={{ y: 20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ ease: "easeInOut", duration: 0.75 }}
-      className="h-screen"
+      className="h-[calc(100vh-6rem)]"
     >
       <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto xl:space-x-20 space-y-4">
         {/* Image Container */}
