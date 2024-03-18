@@ -40,7 +40,7 @@ const page = () => {
         <ProjectItem
           title="Food Web App"
           backgroundImg={fifthGridPic}
-          projectUrl="/foodwebapp"
+          projectUrl="/projects/foodapp"
         />
         <ProjectItem
           title="Construction Website"

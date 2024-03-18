@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 const FAQ2 = () => {
   return (
-    <div className="bg-[#0e0d0d] rounded-2xl">
+    <div className="bg-[#0e0d0d] rounded-2xl cursor-pointer">
       <Accordion
         title="About the project"
         answer="SneakerHead is an ecommerce web app for a sneaker shop. The brand's goals are to bring a collection of the world's best sneakers from the world's top sneaker companies available to their customers."

@@ -14,7 +14,7 @@ const page = () => {
     >
       <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto xl:space-x-32">
         {/* Text Container */}
-        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap gap-4">
+        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap text-[#DEDCDC] gap-4">
           <div className="text-transform: uppercase lg:text-left">About Me</div>
           <div className="text-4xl md:text-6xl lg:text-7xl font-bold items-center break-normal lg:pb-4 text-center">
             Something About My Own Story

@@ -26,7 +26,9 @@ const page = () => {
         {/* Text Container */}
         <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap">
           {/* small heading */}
-          <p className="text-transform: uppercase lg:text-left">Contact</p>
+          <p className="text-transform: uppercase lg:text-left text-[#DEDCDC]">
+            Contact
+          </p>
           {/* H1 */}
           <h1 className="text-4xl md:text-6xl font-bold items-center break-normal mb:pb-4 text-center">
             Need a project? Get in touch now

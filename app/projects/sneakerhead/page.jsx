@@ -26,10 +26,10 @@ const page = () => {
         alt="/"
       />
       <div className="relative bg-black/80 max-w-[1920px] h-full flex flex-col justify-center items-center gap-4">
-        <p className="text-base leading-relaxed text-transform: uppercase text-center">
+        <p className="text-base leading-relaxed text-transform: uppercase text-center text-[#DEDCDC]">
           Project Info
         </p>
-        <h1 className="font-bold text-6xl items-center text-center pb-4">
+        <h1 className="font-bold text-6xl items-center text-center pb-4 ">
           Sneaker Head <br />
           Ecommerce Web App
         </h1>
