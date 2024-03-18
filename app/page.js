@@ -37,7 +37,7 @@ export default function Home() {
             Freelance Designer and Developer
           </h1>
           {/* Buttons */}
-          <div className="flex justify-center items-center gap-4">
+          <div className="flex justify-center items-center gap-4 py-4">
             <Link href="/projects">
               <button className="px-8 py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
                 Projects

@@ -28,7 +28,7 @@ const page = () => {
           {/* small heading */}
           <p className="text-transform: uppercase lg:text-left">Contact</p>
           {/* H1 */}
-          <h1 className="text-4xl md:text-6xl font-bold items-center break-normal lg:pb-4 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold items-center break-normal mb:pb-4 text-center">
             Need a project? Get in touch now
           </h1>
           {/* Buttons */}
