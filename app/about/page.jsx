@@ -39,7 +39,10 @@ const page = () => {
             Something About My Own Story
           </div>
           <div>
-            <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+            <button
+              onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
+              className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]"
+            >
               Scroll Down
             </button>
           </div>
@@ -56,7 +59,10 @@ const page = () => {
         </div>
       </div>
       {/* Short description */}
-      <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-4 mb:py-12 lg:py-16">
+      <div
+        style={{ height: 1000 }}
+        className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-4 mb:py-12 lg:py-16"
+      >
         <div className="grid grid-cols-1 md:grid-cols-8 place-items-top  gap-16 w-full h-fit py-12 md:py-16 lg:py-24">
           <h2 className="font-bold text-4xl col-span-4">
             I use my creativity and expertise to create timeless expressions and
@@ -70,11 +76,11 @@ const page = () => {
           </p>
         </div>
         {/* Grid About Services */}
-        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 w-full h-fit gap-4 py-12 md:py-16 lg:py-24">
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 w-full h-fit gap-4 md:gap-8 py-12 md:py-16 lg:py-24">
           <div className="font-bold text-4xl col-span-4 row-span-6">
             My core services and capabilities
           </div>
-          <div className="col-span-4 gap-8 p-8 bg-black">
+          <div className="col-span-4 gap-8">
             <h4 className="font-bold text-2xl py-2">
               Digital design for services, products and platforms
             </h4>
@@ -85,7 +91,7 @@ const page = () => {
               and meaningful experience for the user
             </p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4">
             <h4 className="font-bold text-2xl py-2">
               Web Development for services, products and platforms
             </h4>
@@ -96,7 +102,7 @@ const page = () => {
               nobis iure ex!
             </p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4">
             <h4 className="font-bold text-2xl py-2">
               Visual identities and logos for a primarily digital world
             </h4>
@@ -107,7 +113,7 @@ const page = () => {
               touchpoints in an accessible and user-friendly way.
             </p>
           </div>
-          <div className="col-span-4 p-8  bg-black">
+          <div className="col-span-4">
             <h4 className="font-bold text-2xl py-2">
               The full package in designing for the web in general
             </h4>
