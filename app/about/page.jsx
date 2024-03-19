@@ -38,12 +38,12 @@ const page = () => {
       </div>
       {/* Short description */}
       <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-4 mb:py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-6 place-items-top gap-4 w-full h-2/3">
+        <div className="grid grid-cols-1 md:grid-cols-8 place-items-top gap-4 w-full h-2/3">
           <h2 className="font-bold text-4xl col-span-4">
             Some heading about what I do as a developer and designer for brands
             and other companies
           </h2>
-          <p>
+          <p className="col-span-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
             rerum non laudantium repellendus, molestiae ut dolorem, facere id
             unde repudiandae ullam delectus consectetur optio. Maxime eius
@@ -51,7 +51,7 @@ const page = () => {
           </p>
         </div>
         {/* Grid About Services */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 w-full h-full">
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-4 w-full h-fit">
           <div className="font-bold text-4xl col-span-4 row-span-6">
             My Services
           </div>
