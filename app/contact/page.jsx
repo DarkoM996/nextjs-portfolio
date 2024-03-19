@@ -45,30 +45,33 @@ const page = () => {
               Email
             </button>
             <button className="px-8 py-4 rounded-3xl ring-1 ring-[#a59f9f] bg-black ">
-              Phone
+              <a href="https://www.linkedin.com/in/darko-mihajlovski-1bb4701b7">
+                LinkedIn
+              </a>
             </button>
           </div>
           {/* Social Media */}
           <div className="flex gap-4">
             <div className="p-4 text-2xl">
-              <p>
-                <FaGithub />
-              </p>
+              <a href="https://github.com/DarkoM996/nextjs-portfolio">
+                <p>
+                  <FaGithub />
+                </p>
+              </a>
             </div>
             <div className="p-4 text-2xl">
-              <p>
-                <FaDribbble />
-              </p>
+              <a href="https://dribbble.com/DarkoM_0-10">
+                <p>
+                  <FaDribbble />
+                </p>
+              </a>
             </div>
             <div className="p-4 text-2xl">
-              <p>
-                <FaBehance />
-              </p>
-            </div>
-            <div className="p-4 text-2xl">
-              <p>
-                <FaLinkedinIn />
-              </p>
+              <a href="https://www.behance.net/darkomihajlo">
+                <p>
+                  <FaBehance />
+                </p>
+              </a>
             </div>
           </div>
         </div>

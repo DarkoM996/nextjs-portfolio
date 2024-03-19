@@ -45,7 +45,7 @@ const page = () => {
         <ProjectItem
           title="Construction Website"
           backgroundImg={sixthGridPic}
-          projectUrl="/cofreelance"
+          projectUrl="/projects/cofreelance"
         />
       </div>
     </div>
