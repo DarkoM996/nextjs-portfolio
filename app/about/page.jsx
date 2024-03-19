@@ -52,7 +52,7 @@ const page = () => {
       </div>
       {/* Short description */}
       <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-4 mb:py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-8 place-items-top gap-4 w-full h-2/3">
+        <div className="grid grid-cols-1 md:grid-cols-8 place-items-top  gap-16 w-full h-fit py-12 md:py-16 lg:py-24">
           <h2 className="font-bold text-4xl col-span-4">
             I use my creativity and expertise to create timeless expressions and
             meaningful experiences for brands in a primarily digital world.
