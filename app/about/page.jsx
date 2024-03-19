@@ -114,7 +114,7 @@ const page = () => {
           </div>
         </div>
         {/* Technologies used? */}
-        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-16 w-full h-fit py-12 md:py-16 lg:py-24">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-8 w-full h-fit py-12 md:py-16 lg:py-24">
           <div className="font-bold text-4xl col-span-4 row-span-6">
             Technologies I use within my work
           </div>
