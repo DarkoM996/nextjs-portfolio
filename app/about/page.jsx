@@ -38,7 +38,7 @@ const page = () => {
       </div>
       {/* Short description */}
       <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24 items-baseline">
-        <div className="grid grid-cols-1 md:grid-cols-3 place-items-end">
+        <div className="grid grid-cols-1 md:grid-cols-3 place-items-end gap-8">
           <h2 className="font-bold text-5xl lg:text-6xl w-full col-span-2">
             I use my creativity and expertise to create timeless expressions and
             meaningful experiences for brands in a primarily digital world.
