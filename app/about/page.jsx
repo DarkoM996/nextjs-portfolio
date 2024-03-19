@@ -12,7 +12,7 @@ const page = () => {
       transition={{ ease: "easeInOut", duration: 0.75 }}
       className="h-[calc(100vh-6rem)]"
     >
-      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto xl:space-x-32">
+      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto xl:space-x-32 space-y-4">
         {/* Text Container */}
         <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap text-[#DEDCDC] gap-4">
           <div className="text-transform: uppercase lg:text-left">About Me</div>
@@ -34,6 +34,23 @@ const page = () => {
             fill
             className="object-cover"
           />
+        </div>
+      </div>
+      {/* Short description */}
+      <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24 items-baseline">
+        <div className="grid grid-cols-1 md:grid-cols-3 place-items-end">
+          <h2 className="font-bold text-5xl lg:text-6xl w-full col-span-2">
+            I use my creativity and expertise to create timeless expressions and
+            meaningful experiences for brands in a primarily digital world.
+          </h2>
+          <div className="w-full h-1/3 row-span-2">
+            <p className="text-[#ccc]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              eligendi ab autem velit. Temporibus consequatur officiis natus
+              fuga, tenetur dolorum, omnis, rem saepe obcaecati tempora suscipit
+              ipsa labore corrupti? Voluptatum?
+            </p>
+          </div>
         </div>
       </div>
     </motion.div>
