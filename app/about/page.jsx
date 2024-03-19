@@ -14,7 +14,12 @@ import {
 import { DiJsBadge } from "react-icons/di";
 import { DiFigma } from "react-icons/di";
 import { FaFigma } from "react-icons/fa";
-import { SiTailwindcss, SiAdobexd } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiAdobexd,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+} from "react-icons/si";
 import Link from "next/link";
 import Footer from "@/app/components/Footer";
 
@@ -156,12 +161,12 @@ const page = () => {
           </div>
           <div className="col-span-4 p-8 bg-black">
             <p className="text-2xl text-[#eeee]">
-              <DiPhotoshop />
+              <SiAdobephotoshop />
             </p>
           </div>
           <div className="col-span-4 p-8 bg-black">
             <p className="text-2xl text-[#eeee]">
-              <DiIllustrator />
+              <SiAdobeillustrator />
             </p>
           </div>
           <div className="col-span-4 p-8 bg-black">
