@@ -114,10 +114,10 @@ const page = () => {
             </p>
           </div>
           <div className="col-span-4">
-            <h4 className="font-bold text-2xl py-2">
+            <h4 className="font-bold text-2xl py-2 text-[#cccc]">
               The full package in designing for the web in general
             </h4>
-            <p className="text-base text-[#eeee]">
+            <p className="text-base text-[#cccc]">
               I build scalable websites from scratch that fit seamlessly with
               design. My focus is on clean and minimalistic design with
               carefully placed animations as well as transitions.
@@ -129,56 +129,66 @@ const page = () => {
           <div className="font-bold text-4xl col-span-4 row-span-6">
             Technologies I use within my work
           </div>
-          <div className="col-span-4 p-8 bg-black">
-            <p className=" text-[#eeee] text-2xl">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
+            <p className="text-[#eeee] text-3xl">
               <DiHtml5 />
             </p>
+            <p className=" text-[#eeee] text-xl ">Html</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
+            <p className="text-3xl text-[#eeee]">
               <DiCss3 />
             </p>
+            <p className=" text-[#eeee] text-xl ">Css</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
+            <p className="text-3xl text-[#eeee]">
               <DiJsBadge />
             </p>
+            <p className=" text-[#eeee] text-xl ">Javascript</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
+            <p className="text-3xl text-[#eeee]">
               <DiReact />
             </p>
+            <p className=" text-[#eeee] text-xl ">React</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
             <p className="text-2xl text-[#eeee]">
               <SiTailwindcss />
             </p>
+            <p className=" text-[#eeee] text-xl ">Tailwind Css</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
             <p className="text-2xl text-[#eeee]">
               <FaGithub />
             </p>
+            <p className=" text-[#eeee] text-xl ">Github</p>
           </div>
 
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
             <p className="text-2xl text-[#eeee]">
               <FaFigma />
             </p>
+            <p className=" text-[#eeee] text-xl ">Figma</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
             <p className="text-2xl text-[#eeee]">
               <SiAdobephotoshop />
             </p>
+            <p className=" text-[#eeee] text-xl ">Photoshop</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
             <p className="text-2xl text-[#eeee]">
               <SiAdobeillustrator />
             </p>
+            <p className=" text-[#eeee] text-xl ">Illustrator</p>
           </div>
-          <div className="col-span-4 p-8 bg-black">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
             <p className="text-2xl text-[#eeee]">
               <SiAdobexd />
             </p>
+            <p className=" text-[#eeee] text-xl ">Adobe Xd</p>
           </div>
         </div>
         <div className="max-w-full h-[85%] mx-auto relative gap-4">
