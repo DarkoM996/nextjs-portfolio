@@ -28,7 +28,7 @@ export default function Home() {
           />
         </div>
         {/* Text Container */}
-        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap">
+        <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap gap-2">
           {/* small heading */}
           <p className="text-transform: uppercase lg:text-left text-[#DEDCDC]">
             Darko Mihajlovski
@@ -38,9 +38,9 @@ export default function Home() {
             Freelance Designer and Developer
           </h1>
           {/* Buttons */}
-          <div className="flex justify-center items-center gap-4">
+          <div className="flex justify-center items-center gap-4 ">
             <Link href="/projects">
-              <button className="px-6 py-3 md:px-8 md:py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+              <button className="px-6 py-3 md:px-8 md:py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee] md:w-full">
                 Projects
               </button>
             </Link>
