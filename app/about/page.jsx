@@ -20,6 +20,7 @@ import {
   SiAdobephotoshop,
   SiAdobeillustrator,
 } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import Link from "next/link";
 import Footer from "@/app/components/Footer";
 
@@ -68,11 +69,11 @@ const page = () => {
             I use my creativity and expertise to create timeless expressions and
             meaningful experiences for brands in a primarily digital world.
           </h2>
-          <p className="col-span-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
-            rerum non laudantium repellendus, molestiae ut dolorem, facere id
-            unde repudiandae ullam delectus consectetur optio. Maxime eius
-            quaerat sint voluptatem vel.
+          <p className="col-span-4 text-[#eeee]">
+            I am Darko Mihajlovski, a creative developer and designer based out
+            of Kumanovo, North Macedonia. I help companies and brands with
+            specific solutions while focusing on taking my work to the next
+            level with quality as the main goal.
           </p>
         </div>
         {/* Grid About Services */}
@@ -85,10 +86,10 @@ const page = () => {
               Digital design for services, products and platforms
             </h4>
             <p className="text-base text-[#eeee]">
-              Extensive experience in creating everything digital. From
-              marketing websites that inspire, to e-commerce that convinces and
-              web apps that are truly beneficial. All while creating a unique
-              and meaningful experience for the user
+              From marketing websites that inspire, to e-commerce that convinces
+              and web apps that are truly beneficial. All while focusing on
+              clean and minimalistic design to deliver use friendly designs for
+              the web.
             </p>
           </div>
           <div className="col-span-4">
@@ -96,28 +97,26 @@ const page = () => {
               Web Development for services, products and platforms
             </h4>
             <p className="text-base text-[#eeee]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo
-              recusandae quas! Cum quia rerum temporibus amet quod repellat
-              dignissimos vitae voluptatibus a, sit sapiente dicta pariatur
-              nobis iure ex!
+              I build websites and web apps that focus on clean and minimalistic
+              design. My focus is on clean and minimalistic design with focus on
+              well placed animations, transitions as well as interaction.
             </p>
           </div>
           <div className="col-span-4">
             <h4 className="font-bold text-2xl py-2">
-              Visual identities and logos for a primarily digital world
+              Visual identities for primarily digital world and brands
             </h4>
             <p className="text-base text-[#eeee]">
-              Not just timeless and memorable, but usable in todays digital
-              world. By using my expertise as a digital designer, I make sure
-              that a visual identity can be used throughout all digital
-              touchpoints in an accessible and user-friendly way.
+              With my knowledge as a digital designer, I make sure that a visual
+              identity can be used throughout all digital touchpoints in an
+              accessible and user-friendly way.
             </p>
           </div>
           <div className="col-span-4">
-            <h4 className="font-bold text-2xl py-2 text-[#cccc]">
+            <h4 className="font-bold text-2xl py-2">
               The full package in designing for the web in general
             </h4>
-            <p className="text-base text-[#cccc]">
+            <p className="text-base text-[#eeee]">
               I build scalable websites from scratch that fit seamlessly with
               design. My focus is on clean and minimalistic design with
               carefully placed animations as well as transitions.
@@ -129,66 +128,84 @@ const page = () => {
           <div className="font-bold text-4xl col-span-4 row-span-6">
             Technologies I use within my work
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-[#eeee] text-3xl">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-[#eeee] text-3xl group-hover:text-black">
               <DiHtml5 />
             </p>
-            <p className=" text-[#eeee] text-xl ">Html</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black ">
+              Html
+            </p>
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-3xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2  hover:bg-white group hover:text-black">
+            <p className="text-3xl text-[#eeee] group-hover:text-black">
               <DiCss3 />
             </p>
-            <p className=" text-[#eeee] text-xl ">Css</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">Css</p>
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-3xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-3xl text-[#eeee] group-hover:text-black">
               <DiJsBadge />
             </p>
-            <p className=" text-[#eeee] text-xl ">Javascript</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Javascript
+            </p>
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-3xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-3xl text-[#eeee] group-hover:text-black">
               <DiReact />
             </p>
-            <p className=" text-[#eeee] text-xl ">React</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              React
+            </p>
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white  group hover:text-black">
+            <p className="text-2xl text-[#eeee] group-hover:text-black">
               <SiTailwindcss />
             </p>
-            <p className=" text-[#eeee] text-xl ">Tailwind Css</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Tailwind Css
+            </p>
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-2xl text-[#eeee] group-hover:text-black">
+              <TbBrandFramerMotion />
+            </p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Framer Motion
+            </p>
+          </div>
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-2xl text-[#eeee] group-hover:text-black">
               <FaGithub />
             </p>
-            <p className=" text-[#eeee] text-xl ">Github</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Github
+            </p>
           </div>
 
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-2xl text-[#eeee] group-hover:text-black">
               <FaFigma />
             </p>
-            <p className=" text-[#eeee] text-xl ">Figma</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Figma
+            </p>
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-2xl text-[#eeee] group-hover:text-black">
               <SiAdobephotoshop />
             </p>
-            <p className=" text-[#eeee] text-xl ">Photoshop</p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Photoshop
+            </p>
           </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-2xl text-[#eeee]">
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-2xl text-[#eeee] group-hover:text-black">
               <SiAdobeillustrator />
             </p>
-            <p className=" text-[#eeee] text-xl ">Illustrator</p>
-          </div>
-          <div className="col-span-4 p-8 bg-black flex items-center gap-2">
-            <p className="text-2xl text-[#eeee]">
-              <SiAdobexd />
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Illustrator
             </p>
-            <p className=" text-[#eeee] text-xl ">Adobe Xd</p>
           </div>
         </div>
         <div className="max-w-full h-[85%] mx-auto relative gap-4">
