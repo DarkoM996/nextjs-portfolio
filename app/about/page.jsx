@@ -68,6 +68,7 @@ const page = () => {
             src={aboutPicture}
             alt="About Picture"
             fill
+            sizes="(max-width: 768px) 100vw, 33vw"
             className="object-cover max-w-full"
           />
         </div>
@@ -79,7 +80,7 @@ const page = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-8 place-items-top  gap-16 w-full h-fit py-12 md:py-16 lg:py-24">
           <h2 className="font-bold text-4xl col-span-4">
-            I use my creativity and expertise to create timeless expressions and
+            I use my creativity and knowledge to create timeless expressions and
             meaningful experiences for brands in a primarily digital world.
           </h2>
           <p className="col-span-4 text-[#eeee]">
