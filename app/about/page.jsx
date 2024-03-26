@@ -23,6 +23,7 @@ import {
 import { TbBrandFramerMotion } from "react-icons/tb";
 import Link from "next/link";
 import Footer from "@/app/components/Footer";
+import { FaChevronDown } from "react-icons/fa";
 
 const page = () => {
   return (
@@ -42,9 +43,21 @@ const page = () => {
           <div>
             <button
               onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
-              className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]"
+              className="px-8 py-4 bg-white rounded-full text-black flex gap-2 justify-center items-center"
             >
               Scroll Down
+              <motion.p
+                initial={{ opacity: 0.2, y: 0 }}
+                animate={{ opacity: 1, y: "10px" }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                className="text-xl"
+              >
+                <FaChevronDown />
+              </motion.p>
             </button>
           </div>
         </div>

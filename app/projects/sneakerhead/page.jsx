@@ -14,6 +14,8 @@ import gridPic4 from "../../images/16.jpg";
 import FAQ2 from "@/app/components/FAQ2";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
+import { FaChevronDown } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const page = () => {
   return (
@@ -35,9 +37,17 @@ const page = () => {
         </h1>
         <button
           onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
-          className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]"
+          className="px-8 py-4 text-white flex flex-col justify-center items-center"
         >
           Scroll Down
+          <motion.p
+            initial={{ opacity: 0.2, y: 0 }}
+            animate={{ opacity: 1, y: "10px" }}
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+            className="text-xl"
+          >
+            <FaChevronDown />
+          </motion.p>
         </button>
       </div>
       {/* Project Info + Accordion */}
@@ -130,7 +140,12 @@ const page = () => {
         </div>
         <div className="max-w-full h-[85%] mx-auto relative gap-4">
           <h2 className="text-5xl font-bold flex flex-col items-center justify-center h-[90%]">
-            Next Case
+            <Link
+              href="/projects/coffeebar"
+              className="hover:underline hover:text-red-500"
+            >
+              Next Case
+            </Link>
           </h2>
           <Footer />
         </div>

@@ -14,6 +14,8 @@ import FAQ2 from "@/app/components/FAQ2";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
 import FAQ3 from "@/app/components/FAQ3";
+import { FaChevronDown } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const page = () => {
   return (
@@ -33,12 +35,26 @@ const page = () => {
           Coffee Bar <br />
           Landing Page
         </h1>
-        <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">
+        <button
+          onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
+          className="px-8 py-4 text-white flex flex-col justify-center items-center"
+        >
           Scroll Down
+          <motion.p
+            initial={{ opacity: 0.2, y: 0 }}
+            animate={{ opacity: 1, y: "10px" }}
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+            className="text-xl"
+          >
+            <FaChevronDown />
+          </motion.p>
         </button>
       </div>
       {/* Project Info + Accordion */}
-      <div className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24">
+      <div
+        style={{ height: 1000 }}
+        className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24"
+      >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
           <h2 className="text-5xl w-full font-bold">
             CoffeeBar is a concept project about a website for a coffee bar that
