@@ -34,7 +34,7 @@ export default function Home() {
             Darko Mihajlovski
           </p>
           {/* H1 */}
-          <h1 className="text-4xl md:text-7xl  font-bold items-center break-normal pb-4 md:pb-8 text-center">
+          <h1 className="text-4xl md:text-6xl  font-bold items-center break-normal pb-4 md:pb-8 text-center">
             Freelance Designer and Developer
           </h1>
           {/* Buttons */}
