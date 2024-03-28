@@ -24,6 +24,7 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import Link from "next/link";
 import Footer from "@/app/components/Footer";
 import { FaChevronDown } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 
 const page = () => {
   return (
@@ -43,7 +44,7 @@ const page = () => {
           <div>
             <button
               onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
-              className="px-8 py-4 bg-white rounded-full text-black flex gap-2 justify-center items-center"
+              className="px-8 py-4  text-white flex flex-col gap-2 justify-center items-center"
             >
               Scroll Down
               <motion.p
@@ -194,6 +195,14 @@ const page = () => {
             </p>
             <p className=" text-[#eeee] text-xl group-hover:text-black">
               Github
+            </p>
+          </div>
+          <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+            <p className="text-2xl text-[#eeee] group-hover:text-black">
+              <SiNextdotjs />
+            </p>
+            <p className=" text-[#eeee] text-xl group-hover:text-black">
+              Next.js
             </p>
           </div>
 
