@@ -12,7 +12,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl pb-4">{title}</h3>
-        <Link href={projectUrl}>
+        <Link href={projectUrl} prefetch={false}>
           <p className="text-center p-4 rounded-full bg-white hover:bg-[#eee] text-black text-lg cursor-pointer">
             More Info
           </p>
