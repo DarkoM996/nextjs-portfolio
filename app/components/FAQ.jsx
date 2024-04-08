@@ -6,7 +6,7 @@ const FAQ = () => {
     <div className=" bg-[#0e0d0d] rounded-2xl cursor-pointer">
       <Accordion
         title="About the project"
-        answer="Furnico is an ecommerce website design. The website relies on clean and minimalistic design with pastel color choice to create a warm and cozy feeling when the user is on the website."
+        answer="Furnico is an ecommerce web app. The web app relies on clean and minimalistic design with pastel color choice to create a warm and cozy feeling when the user is on the website."
       />
       <Accordion
         title="Technologies used"
