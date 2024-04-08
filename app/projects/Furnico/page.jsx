@@ -9,7 +9,7 @@ import gridPic9 from "../../images/31.jpg";
 import gridPic10 from "../../images/29.jpg";
 import gridPic11 from "../../images/26.jpg";
 import gridPic4 from "../../images/27.jpg";
-import FAQ from "../../../app/components/FAQ";
+import FAQ from "../../components/FAQ";
 import FAQ2 from "@/app/components/FAQ2";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
