@@ -20,7 +20,7 @@ const page = () => {
         <ProjectItem
           title="Furniture Web App"
           backgroundImg={gridPic}
-          projectUrl="/projects/furnico"
+          projectUrl="/projects/furniico"
         />
         <ProjectItem
           title="Sneakers Web App"
