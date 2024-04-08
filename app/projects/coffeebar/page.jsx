@@ -150,7 +150,7 @@ const page = () => {
         <div className="max-w-full h-[85%] mx-auto relative gap-4">
           <h2 className="text-5xl font-bold flex flex-col items-center justify-center h-[90%]">
             <Link
-              href="/projects/sneakerhead"
+              href="/projects/travelwebsite"
               className="hover:underline hover:text-red-500"
             >
               Next Case
