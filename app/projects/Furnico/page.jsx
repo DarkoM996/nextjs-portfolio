@@ -33,7 +33,7 @@ const page = () => {
         </p>
         <h1 className="font-bold text-6xl items-center text-center pb-4">
           Furnico Furniture <br />
-          Ecommerce Web Design
+          Ecommerce Web App
         </h1>
         {/* This is how to have a scroll to section in React + NextJs */}
         <button
@@ -59,7 +59,7 @@ const page = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
           <h2 className="text-5xl w-full font-bold">
-            Furnico is a website for an ecommerce fictional furniture brand
+            Furnico is a web app for an ecommerce fictional furniture brand
           </h2>
           <div className="w-full h-2/3  text-white">
             <FAQ />
