@@ -73,6 +73,7 @@ const page = () => {
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
             className="object-cover max-w-full"
+            quality={100}
             alt="/"
           />
         </div>
