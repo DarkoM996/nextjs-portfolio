@@ -24,7 +24,6 @@ const page = () => {
         priority={true}
         src={gridPic}
         fill
-        sizes="(max-width: 768px) 100vw, 33vw"
         className="object-cover  bg-center"
         alt="/"
       />
@@ -71,7 +70,6 @@ const page = () => {
             priority={true}
             src={gridPic6}
             fill
-            sizes="(max-width: 768px) 100vw, 33vw"
             className="object-cover max-w-full"
             quality={100}
             alt="/"
@@ -85,7 +83,6 @@ const page = () => {
                 priority={true}
                 src={gridPic7}
                 fill
-                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover"
                 alt="/"
               />
@@ -96,7 +93,6 @@ const page = () => {
                 priority={true}
                 src={gridPic8}
                 fill
-                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover"
                 alt="/"
               />
@@ -111,7 +107,6 @@ const page = () => {
               priority={true}
               src={gridPic9}
               fill
-              sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover max-w-full"
               alt="/"
             />
@@ -122,7 +117,6 @@ const page = () => {
               priority={true}
               src={gridPic10}
               fill
-              sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover"
               alt="/"
             />
@@ -132,7 +126,6 @@ const page = () => {
               priority={true}
               src={gridPic11}
               fill
-              sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover"
               alt="/"
             />
