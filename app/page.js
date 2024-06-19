@@ -23,6 +23,7 @@ export default function Home() {
             src={heroPic}
             alt="Hero Section Picture"
             fill
+            quality={90}
             sizes="(max-width: 768px) 100vw, 33vw"
             className=" object-cover max-w-full"
           />
