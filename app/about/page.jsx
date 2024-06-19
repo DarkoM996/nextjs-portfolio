@@ -69,8 +69,7 @@ const page = () => {
             src={aboutPicture}
             alt="About Picture"
             fill
-            sizes="(max-width: 768px) 100vw, 33vw"
-            className="object-cover max-w-full"
+            className="object-cover w-full h-full bg-center"
           />
         </div>
       </div>

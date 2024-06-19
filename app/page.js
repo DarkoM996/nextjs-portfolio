@@ -24,7 +24,6 @@ export default function Home() {
             alt="Hero Section Picture"
             width={1000}
             height={1000}
-            // sizes="(max-width: 768px) 100vw, 33vw"
             className=" object-cover w-full h-full"
           />
         </div>

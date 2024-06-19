@@ -20,8 +20,7 @@ const page = () => {
             src={contactPic}
             alt="Contact Section Picture"
             fill
-            sizes="(max-width: 768px) 100vw, 33vw"
-            className=" object-cover"
+            className=" object-cover w-full h-full bg-center"
           />
         </div>
         {/* Text Container */}
