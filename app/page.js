@@ -22,10 +22,10 @@ export default function Home() {
             priority
             src={heroPic}
             alt="Hero Section Picture"
-            fill
-            quality={90}
-            sizes="(max-width: 768px) 100vw, 33vw"
-            className=" object-cover max-w-full"
+            width={1000}
+            height={1000}
+            // sizes="(max-width: 768px) 100vw, 33vw"
+            className=" object-cover w-full h-full"
           />
         </div>
         {/* Text Container */}
