@@ -19,7 +19,8 @@ const page = () => {
             priority
             src={contactPic}
             alt="Contact Section Picture"
-            fill
+            width={1000}
+            height={1000}
             className=" object-cover w-full h-full bg-center"
           />
         </div>

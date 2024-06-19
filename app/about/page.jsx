@@ -68,7 +68,8 @@ const page = () => {
             priority
             src={aboutPicture}
             alt="About Picture"
-            fill
+            width={1000}
+            height={1000}
             className="object-cover w-full h-full bg-center"
           />
         </div>
