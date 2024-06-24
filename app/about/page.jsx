@@ -92,8 +92,8 @@ const page = () => {
           </p>
         </div>
         {/* Grid About Services */}
-        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 w-full h-fit gap-4 md:gap-8 py-12 md:py-16 lg:py-24">
-          <div className="font-bold text-4xl col-span-4 row-span-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-12 w-full h-fit gap-4 md:gap-8 py-12 md:py-16 lg:py-24">
+          <div className="font-bold text-4xl text-balance col-span-4 row-span-6">
             My core services and capabilities
           </div>
           <div className="col-span-4 gap-8">
