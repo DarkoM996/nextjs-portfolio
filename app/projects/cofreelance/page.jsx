@@ -11,9 +11,6 @@ const page = () => {
         priority={true}
         src={gridPic}
         fill={true}
-        sizes="(max-width: 768px) 100vw, 33vw"
-        // sizes="100vw"
-        // style={{ objectFit: "cover" }}
         className="object-cover  object-center"
         alt="/"
       />
