@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import contactPic from "../images/10.png";
+import contactPic from "../images/travel-landing-page-mockup-1.4.jpg";
 import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const page = () => {
