@@ -19,6 +19,7 @@ import {
   SiAdobexd,
   SiAdobephotoshop,
   SiAdobeillustrator,
+  SiReact,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import Link from "next/link";
@@ -231,6 +232,7 @@ const page = () => {
             </p>
           </div>
         </div>
+        {/* Footer Section */}
         <div className="max-w-full h-[85%] mx-auto relative gap-4">
           <h2 className="text-5xl font-bold flex flex-col items-center justify-center h-[90%]">
             <Link
@@ -251,21 +253,80 @@ export default page;
 
 // Already functional and written code about About Page. I'm going to try a different style here up top
 
-// {/* Container */}
-// <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 lg: gap-24 xl:px-32 lg:py-4">
-//   <div className="h-full lg:h-full lg:w-full relative ">
-//   <Image src={aboutPic} alt="About Image" fill className=" object-cover" />
-//   </div>
-//   {/* Text Container */}
-//   <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 gap-24">
-//     {/* Small Heading */}
-//     <p className="text-transform: uppercase pb-4 lg:text-left">About Me</p>
-//     {/* H1 */}
-//     <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold items-center break-normal lg:pb-4 text-left">Something about my story and beginnings</h1>
-//     {/* Buttons */}
-//     <div className="flex py-4">
-//       <button className="px-8 py-4 rounded-3xl ring-1 ring-white bg-white text-black hover:bg-[#eee]">Scroll Down</button>
+{
+  /* Technologies used? */
+}
+<div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-8 w-full h-fit py-12 md:py-16 lg:py-24">
+  <div className="font-bold text-4xl col-span-4 row-span-6">
+    Technologies I use within my work
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-[#eeee] text-3xl group-hover:text-black">
+      <DiHtml5 />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black ">Html</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2  hover:bg-white group hover:text-black">
+    <p className="text-3xl text-[#eeee] group-hover:text-black">
+      <DiCss3 />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Css</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-3xl text-[#eeee] group-hover:text-black">
+      <DiJsBadge />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Javascript</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-3xl text-[#eeee] group-hover:text-black">
+      <DiReact />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">React</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white  group hover:text-black">
+    <p className="text-2xl text-[#eeee] group-hover:text-black">
+      <SiTailwindcss />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Tailwind Css</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-2xl text-[#eeee] group-hover:text-black">
+      <TbBrandFramerMotion />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">
+      Framer Motion
+    </p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-2xl text-[#eeee] group-hover:text-black">
+      <FaGithub />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Github</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-2xl text-[#eeee] group-hover:text-black">
+      <SiNextdotjs />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Next.js</p>
+  </div>
 
-//     </div>
-//   </div>
-// </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-2xl text-[#eeee] group-hover:text-black">
+      <FaFigma />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Figma</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-2xl text-[#eeee] group-hover:text-black">
+      <SiAdobephotoshop />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Photoshop</p>
+  </div>
+  <div className="col-span-4 p-8 bg-black flex items-center gap-2 hover:bg-white group hover:text-black">
+    <p className="text-2xl text-[#eeee] group-hover:text-black">
+      <SiAdobeillustrator />
+    </p>
+    <p className=" text-[#eeee] text-xl group-hover:text-black">Illustrator</p>
+  </div>
+</div>;

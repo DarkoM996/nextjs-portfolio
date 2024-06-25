@@ -54,17 +54,4 @@ const page = () => {
 
 export default page;
 
-// <div className="h-full grid grid-cols  md:grid-cols-2 xl:grid-cols-3 gap-4 px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32  max-w-[1920px] mx-auto">
-// <div className=" h-full w-full relative cursor-pointer hover:bg-black">
-// <Image priority src={gridPic} alt="Grid Picture 1" width={300} className="object-cover h-full w-full cursor-pointer overflow-hidden" />
-//  <div className="flex absolute justify-center  bottom-0 left-0 right-0 top-0 items-center">
-//   <h3 className="text-4xl justify-center items-center">Project Name</h3>
-//  </div>
-// </div>
-// <Image priority src={secondGridPic} alt="Grid Picture 2" width={300} className="object-cover h-full w-full" />
-// <Image priority src={thirdGridPic} alt="Grid Picture 3" width={300} className="object-cover h-full w-full" />
-// <Image priority src={fourthGridPic} alt="Grid Picture 4" width={300} className="object-cover h-full w-full" />
-// <Image priority src={fifthGridPic} alt="Grid Picture 5" width={300} className="object-cover h-full w-full" />
-// <Image priority src={sixthGridPic} alt="Grid Picture 6" width={300} className="object-cover h-full w-full" />
 
-// </div>
