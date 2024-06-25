@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import gridPic from "../../images/12.jpg";
+import gridPic from "../../images/travel-landing-page-mockup-1.4.jpg";
 
 const page = () => {
   return (
@@ -11,9 +11,6 @@ const page = () => {
         priority={true}
         src={gridPic}
         fill={true}
-        sizes="(max-width: 768px) 100vw, 33vw"
-        // sizes="100vw"
-        // style={{ objectFit: "cover" }}
         className="object-cover  object-center"
         alt="/"
       />
