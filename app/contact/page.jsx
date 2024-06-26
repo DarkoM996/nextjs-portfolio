@@ -12,7 +12,7 @@ const page = () => {
       transition={{ ease: "easeInOut", duration: 0.75 }}
       className="h-[calc(100vh-6rem)]"
     >
-      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto space-y-4 xl:space-x-20">
+      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-screen-3xl mx-auto space-y-4 xl:space-x-20">
         {/* Image Container */}
         <div className="h-full lg:h-full lg:w-full relative">
           <Image

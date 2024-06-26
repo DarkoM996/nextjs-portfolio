@@ -6,7 +6,7 @@ import gridPic from "../../images/3.png";
 const page = () => {
   return (
     // h-[calc(100vh-4.3rem)] removes vertical scrollbar.
-    <div className="max-w-[1920px] h-[calc(100vh-4.3rem)] mx-auto relative overflow-hidden">
+    <div className="max-w-screen-3xl h-[calc(100vh-4.3rem)] mx-auto relative overflow-hidden">
       <Image
         priority={true}
         src={gridPic}

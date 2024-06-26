@@ -19,7 +19,7 @@ import { motion } from "framer-motion";
 
 const page = () => {
   return (
-    <div className="max-w-[1920px] mx-auto relative h-screen">
+    <div className="max-w-screen-3xl mx-auto relative h-screen">
       <Image
         priority={true}
         src={gridPic}
@@ -27,7 +27,7 @@ const page = () => {
         className="object-cover  bg-center"
         alt="/"
       />
-      <div className="relative bg-black/50 max-w-[1920px] h-full flex flex-col justify-center items-center gap-4">
+      <div className="relative bg-black/50 max-w-screen-3xl h-full flex flex-col justify-center items-center gap-4">
         <p className="text-base leading-relaxed text-transform: uppercase text-center text-[#DEDCDC]">
           Project Info
         </p>
@@ -53,7 +53,7 @@ const page = () => {
       {/* Project Info + Accordion */}
       <div
         style={{ height: 1000 }}
-        className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24"
+        className="max-w-screen-3xl h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-18  xl:py-24"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 py-8 sm:py-12 md:py-16 lg:py-24">
           <h2 className="text-5xl w-full font-bold">
@@ -65,7 +65,7 @@ const page = () => {
           </div>
         </div>
         {/* Picture */}
-        <div className="max-w-[1920px] h-screen relative mx-auto gap-18 py-8 sm:py-12 md:py-16  lg:py-24">
+        <div className="max-w-screen-3xl h-screen relative mx-auto gap-18 py-8 sm:py-12 md:py-16  lg:py-24">
           <Image
             priority={true}
             src={gridPic6}

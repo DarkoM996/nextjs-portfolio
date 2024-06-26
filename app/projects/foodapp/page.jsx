@@ -5,18 +5,15 @@ import gridPic from "../../images/4.jpg";
 
 const page = () => {
   return (
-    <div className="max-w-[1920px] h-screen mx-auto relative overflow-hidden">
+    <div className="max-w-screen-3xl h-screen mx-auto relative overflow-hidden">
       <Image
         priority={true}
         src={gridPic}
         fill={true}
-        sizes="(max-width: 768px) 100vw, 33vw"
-        // sizes="100vw"
-        // style={{ objectFit: "cover" }}
-        className="object-cover absolute object-center"
+        className="object-cover absolute bg-center"
         alt="/"
       />
-      <div className="relative bg-black/50 max-w-[1920px] h-full flex flex-col justify-center items-center gap-4">
+      <div className="relative bg-black/50 max-w-screen-3xl h-full flex flex-col justify-center items-center gap-4">
         <p className="text-base leading-relaxed text-transform: uppercase text-center text-[#DEDCDC]">
           The Tomato
         </p>

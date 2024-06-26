@@ -35,7 +35,7 @@ const page = () => {
       transition={{ ease: "easeInOut", duration: 0.75 }}
       className="h-[calc(100vh-6rem)]"
     >
-      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-[1920px] mx-auto xl:space-x-32 space-y-4">
+      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-screen-3xl mx-auto xl:space-x-32 space-y-4">
         {/* Text Container */}
         <div className="h-1/2 lg:h-full lg:w-full flex flex-col items-center justify-center flex-wrap text-[#DEDCDC] gap-4">
           <div className="text-transform: uppercase lg:text-left">About Me</div>
@@ -78,7 +78,7 @@ const page = () => {
       {/* Short description */}
       <div
         style={{ height: 1000 }}
-        className="max-w-[1920px] h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-4 mb:py-12 lg:py-16"
+        className=" max-w-screen-3xl h-screen mx-auto px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 gap-4 mb:py-12 lg:py-24"
       >
         <div className="grid grid-cols-1 md:grid-cols-8 place-items-top  gap-16 w-full h-fit py-12 md:py-16 lg:py-24">
           <h2 className="font-bold text-4xl col-span-4">

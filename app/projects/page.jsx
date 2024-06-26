@@ -15,7 +15,7 @@ import ProjectItem from "../components/ProjectItem";
 
 const page = () => {
   return (
-    <div className="h-full px-4 py-4 max-w-[1920px] mx-auto lg:h-full sm:px-8">
+    <div className="h-full px-4 py-4 max-w-screen-3xl mx-auto lg:h-full sm:px-8">
       <div className=" grid md:grid-cols-2 xl:grid-cols-3 h-full gap-4">
         <ProjectItem
           title="Furniture Web App"
@@ -53,5 +53,3 @@ const page = () => {
 };
 
 export default page;
-
-

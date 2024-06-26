@@ -81,7 +81,7 @@ const Navbar = () => {
 
   return (
     <div className="border-b  border-[#242323]">
-      <h2 className="text-4xl  h-full flex items-center justify-between px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 max-w-[1920px] mx-auto ">
+      <h2 className="text-4xl  h-full flex items-center justify-between px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 max-w-screen-3xl mx-auto ">
         {/* Logo */}
         <div className="flex">
           <Link href="/">
