@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#0e0d0d] text-white;
+    @apply bg-primary_darkerShade-900 text-white;
   }
 
   h1,
