@@ -24,7 +24,7 @@ const page = () => {
         </h1>
         {/* This is how to have a scroll to section in React + NextJs */}
         <button className="px-8 py-4 rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee]">
-          Coming Soon
+          Work In Progress
         </button>
       </div>
     </div>
