@@ -11,7 +11,7 @@ module.exports = {
         "3xl": "1920px",
       },
       colors: {
-        white: {
+        primary_lighterShade: {
           100: "#F1F1F1",
           200: "#EDEDED",
           300: "#E6E6E6",
