@@ -15,7 +15,7 @@ export default function Home() {
       transition={{ ease: "easeInOut", duration: 0.75 }}
       className="h-[calc(100vh-6rem)]"
     >
-      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-screen-3xl mx-auto xl:space-x-20 space-y-4">
+      <div className="flex flex-col h-full lg:flex-row px-4 py-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 lg:py-4 max-w-screen-3xl mx-auto xl:space-x-20 space-y-4 ">
         {/* Image Container */}
         <div className="h-full lg:h-full lg:w-full relative space-y-24">
           <Image
