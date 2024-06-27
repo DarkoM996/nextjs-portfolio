@@ -33,7 +33,7 @@ export default function Home() {
           <p className="text-transform: uppercase text-center text-[#DEDCDC]">
             Darko Mihajlovski
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold text-center text-balance">
+          <h1 className="text-5xl md:text-6xl font-bold text-center text-balance">
             {" "}
             Creative Designer and Developer
           </h1>
