@@ -19,11 +19,11 @@ export default function Home() {
         {/* Image */}
         <div className="relative w-full h-full">
           <Image
-            priority={true}
+            priority
             src={heroPic}
             alt="Hero Section Picture"
-            width={800}
-            height={800}
+            width={1000}
+            height={1000}
             className="object-cover w-full h-full bg-center"
           />
         </div>
