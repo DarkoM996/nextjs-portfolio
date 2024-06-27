@@ -12,19 +12,19 @@ export default function Home() {
       initial={{ y: 20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ ease: "easeInOut", duration: 0.75 }}
-      className="max-w-screen-3xl mx-auto h-[calc(100vh-6rem)]"
+      className="max-w-screen-3xl mx-auto h-full"
     >
       {/* Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full gap-6 lg:gap-16">
         {/* Image */}
-        <div className="relative w-full">
+        <div className="relative w-full h-full">
           <Image
             priority={true}
             src={heroPic}
             alt="Hero Section Picture"
-            width={1000}
-            height={1000}
-            className=" object-cover w-full h-full bg-center"
+            width={800}
+            height={800}
+            className="object-cover w-full h-full bg-center"
           />
         </div>
         {/* Text Container */}
@@ -39,9 +39,12 @@ export default function Home() {
           </h1>
           {/* Buttons */}
           <div className="flex flex-col md:flex-row justify-center items-center w-full pt-4 gap-4">
-            <button className="px-6 py-3 md:px-8 md:py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee] w-[180px]">
+            <Link
+              href="/projects"
+              className="px-6 py-3 md:px-8 md:py-4 rounded-3xl md:rounded-full ring-1 ring-white bg-white text-black hover:bg-[#eee] w-[180px] text-center"
+            >
               Projects
-            </button>
+            </Link>
             <button className="px-6 py-3 md:px-8 md:py-4 rounded-3xl md:rounded-full ring-1 ring-[#a59f9f] bg-black hover:bg-[#0e0d0d] w-[180px]">
               Download CV
             </button>
