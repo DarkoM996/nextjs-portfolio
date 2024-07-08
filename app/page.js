@@ -17,7 +17,7 @@ export default function Home() {
       {/* Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full gap-6 lg:gap-16">
         {/* Image */}
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full ">
           <Image
             priority
             src={heroPic}
