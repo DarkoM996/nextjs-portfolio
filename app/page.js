@@ -22,8 +22,8 @@ export default function Home() {
             priority
             src={heroPic}
             alt="Hero Section Picture"
-            width={1000}
-            height={1000}
+            width={700}
+            height={700}
             className="object-cover w-full h-full bg-center"
           />
         </div>
